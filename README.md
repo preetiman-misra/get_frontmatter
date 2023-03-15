@@ -17,7 +17,7 @@ cargo run
 By providing a `path` to the `jsonify_frontmatter<P: <AsRef<Path>>>(path: P)` function, you get
 a corresponding `output.json`.
 
-For an input of in `hello.md`:
+For an input file `hello.md` containing:
 
 ```commonmark
 ---
